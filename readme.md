@@ -2,7 +2,7 @@
 >Backend RESTful API for Ecommerce build in Node.js using Express.js & MongoDB
 
 ## Install all Dependencies
-ruby```
+```
 npm i
 ```
 ## config.env
