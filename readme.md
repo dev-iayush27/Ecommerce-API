@@ -8,27 +8,27 @@ npm i
 ### config.env
 >Create config.env file inside root folder. Add environment variable values.
 ```
-PORT =
-NODE_ENV =
-DB_URI = 
+PORT = <It may be any port number like 3000, 4000 etc>
+NODE_ENV = <It may be DEVELOPMENT or PRODUCTION>
+DB_URI = <A link to connect your application to your cluster. You can get this from [here](https://cloud.mongodb.com/)>
 
-JWT_SECRET =
-JWT_EXPIRES_TIME =
-COOKIE_EXPIRES_TIME =
+JWT_SECRET = <secret or publicKey (strong and random alphanumeric string)>
+JWT_EXPIRES_TIME = <It may be any time/day like 7d, 10d etc>
+COOKIE_EXPIRES_TIME = <It may be 7, 10 etc>
 
-CLOUDINARY_CLOUD_NAME =
-CLOUDINARY_API_KEY =
-CLOUDINARY_API_SECRET =
+CLOUDINARY_CLOUD_NAME = <It should be your cloudinary cloud name>
+CLOUDINARY_API_KEY = <It should be your cloudinary api key>
+CLOUDINARY_API_SECRET = <It should be your cloudinary api secret>
 
-STRIPE_SECRET_KEY =
-STRIPE_API_KEY =
+STRIPE_SECRET_KEY = <It should be your stripe secret key>
+STRIPE_API_KEY = <It should be your stripe api key>
 
-SMTP_HOST =
-SMTP_PORT =
-SMTP_EMAIL =
-SMTP_PASSWORD =
-SMTP_FROM_EMAIL =
-SMTP_FROM_NAME =
+SMTP_HOST = <It should be your SMTP host (Get it from [here](https://mailtrap.io/))>
+SMTP_PORT = <It should be your SMTP port>
+SMTP_EMAIL = <It should be your SMTP email>
+SMTP_PASSWORD = <It should be your SMTP password>
+SMTP_FROM_EMAIL = <It should be your email id from which you will send mail via SMTP>
+SMTP_FROM_NAME = <It should be any name from which you will send mail via SMTP>
 ```
 ### Run Project using any one of below commands
 ```ruby
