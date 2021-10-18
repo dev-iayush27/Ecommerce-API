@@ -53,6 +53,7 @@ brew install mongodb-community@5.0
 - Connect to database cluster. (If you want you can connect database with [MongoDB compass](https://www.mongodb.com/products/compass)(GUI for MongoDB) on your Macbook after installing the MongoDB Compass.)
 
 ### Packages
+>Below packages are used in this project:
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [cloudinary](https://www.npmjs.com/package/cloudinary)
