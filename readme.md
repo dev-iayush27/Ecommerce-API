@@ -32,13 +32,5 @@ SMTP_FROM_NAME =
 ```
 ## Run Project using any one of below commands
 ```
-npm start
-```
-or
-```
-npm run dev
-```
-or
-```
-npm run prod
+npm start | npm run dev | npm run prod
 ```
