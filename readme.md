@@ -46,7 +46,5 @@ npm run prod
 brew tap mongodb/brew
 ```
 ```ruby
-npm start | npm run dev | npm run prod
-```
 brew install mongodb-community@5.0
 ```
