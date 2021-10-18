@@ -23,7 +23,7 @@ CLOUDINARY_API_SECRET = <It should be your cloudinary api secret>
 STRIPE_SECRET_KEY = <It should be your stripe secret key>
 STRIPE_API_KEY = <It should be your stripe api key>
 
-SMTP_HOST = <It should be your SMTP host (Get it from [here](https://mailtrap.io/))>
+SMTP_HOST = <It should be your SMTP host (Get it from https://mailtrap.io/)>
 SMTP_PORT = <It should be your SMTP port>
 SMTP_EMAIL = <It should be your SMTP email>
 SMTP_PASSWORD = <It should be your SMTP password>
