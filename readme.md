@@ -41,7 +41,7 @@ npm run dev
 npm run prod
 ```
 ## Install MongoDB Community Edition
->Install MongoDB Community Edition on macOS using below commands on terminal. For more information, you can checkout this [link](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/). 
+>Install MongoDB Community Edition on macOS using below commands on terminal. For more information, you can checkout this [link](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/). (For different OS like Windows, Linux follow this [link](https://docs.mongodb.com/manual/administration/install-community/).)
 ```ruby
 brew tap mongodb/brew
 ```
