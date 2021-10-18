@@ -10,17 +10,17 @@ npm i
 ```
 PORT = <It may be any port number like 3000, 4000 etc>
 NODE_ENV = <It may be DEVELOPMENT or PRODUCTION>
-DB_URI = <A link to connect your application to your cluster. You can get this from [here](https://cloud.mongodb.com/)>
+DB_URI = <A link to connect your application to your cluster (Get it from https://cloud.mongodb.com/)>
 
 JWT_SECRET = <secret or publicKey (strong and random alphanumeric string)>
 JWT_EXPIRES_TIME = <It may be any time/day like 7d, 10d etc>
 COOKIE_EXPIRES_TIME = <It may be 7, 10 etc>
 
-CLOUDINARY_CLOUD_NAME = <It should be your cloudinary cloud name>
+CLOUDINARY_CLOUD_NAME = <It should be your cloudinary cloud name (Get it from https://cloudinary.com/)>
 CLOUDINARY_API_KEY = <It should be your cloudinary api key>
 CLOUDINARY_API_SECRET = <It should be your cloudinary api secret>
 
-STRIPE_SECRET_KEY = <It should be your stripe secret key>
+STRIPE_SECRET_KEY = <It should be your stripe secret key (Get it from https://dashboard.stripe.com/)>
 STRIPE_API_KEY = <It should be your stripe api key>
 
 SMTP_HOST = <It should be your SMTP host (Get it from https://mailtrap.io/)>
