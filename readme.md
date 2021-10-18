@@ -5,7 +5,7 @@
 ```ruby
 npm i
 ```
-### config.env
+### Setup config.env file
 >Create config.env file inside root folder. Add environment variable values.
 ```
 PORT = <It may be any port number like 3000, 4000 etc>
@@ -51,3 +51,23 @@ brew install mongodb-community@5.0
 - Setup cloud MongoDB Atlas using this [link](https://account.mongodb.com/).
 - Register, create project, create database and do some settings like Database Access, Network Access etc.
 - Connect to database cluster. (If you want you can connect database with [MongoDB compass](https://www.mongodb.com/products/compass)(GUI for MongoDB) on your Macbook after installing the MongoDB Compass.)
+
+### Packages
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+- [cloudinary](https://www.npmjs.com/package/cloudinary)
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [cors](https://www.npmjs.com/package/cors)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [express](https://www.npmjs.com/package/express)
+- [express-fileupload](https://www.npmjs.com/package/express-fileupload)
+- [express-mongo-sanitize](https://www.npmjs.com/package/express-mongo-sanitize)
+- [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
+- [helmet](https://www.npmjs.com/package/helmet)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [mongoose](https://www.npmjs.com/package/mongoose)
+- [nodemailer](https://www.npmjs.com/package/nodemailer)
+- [stripe](https://www.npmjs.com/package/stripe)
+- [validator](https://www.npmjs.com/package/validator)
+- [xss-clean](https://www.npmjs.com/package/xss-clean)
+- [nodemon](https://www.npmjs.com/package/nodemon)
