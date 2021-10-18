@@ -2,7 +2,7 @@
 >Backend RESTful API for Ecommerce build in Node.js using Express.js & MongoDB
 
 ## Install all Dependencies
-```
+```ruby
 npm i
 ```
 ## config.env
@@ -31,14 +31,22 @@ SMTP_FROM_EMAIL =
 SMTP_FROM_NAME =
 ```
 ## Run Project using any one of below commands
+```ruby
+npm start
 ```
-npm start | npm run dev | npm run prod
+```ruby
+npm run dev
+```
+```ruby
+npm run prod
 ```
 ## Install MongoDB Community Edition
 >Install MongoDB Community Edition on macOS using below commands on terminal. For more information, you can checkout this [link](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/). 
 ```ruby
 brew tap mongodb/brew
 ```
+```ruby
+npm start | npm run dev | npm run prod
 ```
 brew install mongodb-community@5.0
 ```
