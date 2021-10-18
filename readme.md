@@ -48,3 +48,6 @@ brew tap mongodb/brew
 ```ruby
 brew install mongodb-community@5.0
 ```
+> Setup cloud MongoDB Atlas using this [link](https://account.mongodb.com/).
+> Register, create project, create database and do some settings like Database Access, Network Access etc.
+> Connect to database cluster. (If you want you can connect database with [MongoDB compass](https://www.mongodb.com/products/compass) on your Macbook after installing the MongoDB Compass.)
