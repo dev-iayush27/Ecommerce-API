@@ -34,3 +34,7 @@ SMTP_FROM_NAME =
 ```
 npm start | npm run dev | npm run prod
 ```
+## Install MongoDB Community Edition
+>Install MongoDB Community Edition on macOS using below command. For more information, you can checkout this [link](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/). 
+- brew tap mongodb/brew
+- brew install mongodb-community@5.0
