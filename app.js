@@ -17,6 +17,9 @@ app.use(fileUpload({
     useTempFiles: true
 }))
 
+// API documentation
+app.use(express.static('api-doc'))
+
 // Setup security headers
 app.use(helmet());
 
