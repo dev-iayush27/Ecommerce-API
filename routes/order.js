@@ -17,6 +17,8 @@ router.route("/order/new").post(isAuthenticatedUser, newOrder);
 router.route("/order/:id").get(isAuthenticatedUser, getSingleOrder);
 router.route("/orders").get(isAuthenticatedUser, getAllOrdersByUser);
 
+// ..... Admin Only .....
+
 router
   .route("/admin/orders/")
   .get(isAuthenticatedUser, authorizeRoles("admin"), getAllOrdersByAdmin);

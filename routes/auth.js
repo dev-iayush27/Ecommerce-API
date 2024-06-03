@@ -9,8 +9,6 @@ const {
   resetPassword,
 } = require("../controllers/authController");
 
-const { isAuthenticatedUser, authorizeRoles } = require("../middlewares/auth");
-
 router.route("/register").post(registerUser);
 router.route("/login").post(loginUser);
 
